@@ -1,0 +1,278 @@
+# Instincts generated from https://github.com/yulintang05-byte/claude-code-skill-factory
+# Generated: 2026-06-08T20:53:46.723Z
+# Version: 2.0
+# NOTE: This file supplements (does not replace) any existing curated instincts.
+# High-confidence manually curated instincts should be preserved alongside these.
+
+---
+id: claude-code-skill-factory-commit-length
+trigger: "when writing a commit message"
+confidence: 0.6
+domain: git
+source: repo-analysis
+source_repo: https://github.com/yulintang05-byte/claude-code-skill-factory
+---
+
+# Claude Code Skill Factory Commit Length
+
+## Action
+
+Write moderate-length commit messages (~72 characters)
+
+## Evidence
+
+- Average commit message length: 72 chars
+- Based on 1 commits
+
+---
+id: claude-code-skill-factory-naming-files
+trigger: "when creating a new file"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/yulintang05-byte/claude-code-skill-factory
+---
+
+# Claude Code Skill Factory Naming Files
+
+## Action
+
+Use snake_case naming convention
+
+## Evidence
+
+- Analyzed file naming patterns in repository
+- Dominant pattern: snake_case
+
+---
+id: claude-code-skill-factory-import-relative
+trigger: "when importing modules"
+confidence: 0.75
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/yulintang05-byte/claude-code-skill-factory
+---
+
+# Claude Code Skill Factory Import Relative
+
+## Action
+
+Use relative imports for project files
+
+## Evidence
+
+- Import analysis shows relative import pattern
+- Example: import { x } from '../lib/x'
+
+---
+id: claude-code-skill-factory-export-style
+trigger: "when exporting from a module"
+confidence: 0.7
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/yulintang05-byte/claude-code-skill-factory
+---
+
+# Claude Code Skill Factory Export Style
+
+## Action
+
+Prefer named exports
+
+## Evidence
+
+- Export pattern analysis
+- Dominant style: named
+
+---
+id: claude-code-skill-factory-test-separate
+trigger: "when writing tests"
+confidence: 0.8
+domain: testing
+source: repo-analysis
+source_repo: https://github.com/yulintang05-byte/claude-code-skill-factory
+---
+
+# Claude Code Skill Factory Test Separate
+
+## Action
+
+Place tests in the tests/ or __tests__/ directory, mirroring src structure
+
+## Evidence
+
+- Separate test directory pattern detected
+- Tests live in dedicated test folders
+
+---
+id: claude-code-skill-factory-instinct-file-naming
+trigger: "When creating a new Python file"
+confidence: 0.9
+domain: code-style
+source: repo-analysis
+source_repo: yulintang05-byte/claude-code-skill-factory
+---
+
+# Claude Code Skill Factory Instinct File Naming
+
+## Action
+
+Name the file using snake_case
+
+## Evidence
+
+- Pattern in namingConventions.files
+
+---
+id: claude-code-skill-factory-instinct-function-naming
+trigger: "When defining a new function"
+confidence: 0.9
+domain: code-style
+source: repo-analysis
+source_repo: yulintang05-byte/claude-code-skill-factory
+---
+
+# Claude Code Skill Factory Instinct Function Naming
+
+## Action
+
+Name the function using camelCase
+
+## Evidence
+
+- Pattern in namingConventions.functions
+
+---
+id: claude-code-skill-factory-instinct-class-naming
+trigger: "When defining a new class"
+confidence: 0.9
+domain: code-style
+source: repo-analysis
+source_repo: yulintang05-byte/claude-code-skill-factory
+---
+
+# Claude Code Skill Factory Instinct Class Naming
+
+## Action
+
+Name the class using PascalCase
+
+## Evidence
+
+- Pattern in namingConventions.classes
+
+---
+id: claude-code-skill-factory-instinct-constant-naming
+trigger: "When defining a constant"
+confidence: 0.9
+domain: code-style
+source: repo-analysis
+source_repo: yulintang05-byte/claude-code-skill-factory
+---
+
+# Claude Code Skill Factory Instinct Constant Naming
+
+## Action
+
+Name the constant using SCREAMING_SNAKE_CASE
+
+## Evidence
+
+- Pattern in namingConventions.constants
+
+---
+id: claude-code-skill-factory-instinct-import-style
+trigger: "When importing modules within the package"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: yulintang05-byte/claude-code-skill-factory
+---
+
+# Claude Code Skill Factory Instinct Import Style
+
+## Action
+
+Use relative imports
+
+## Evidence
+
+- Pattern in importStyle
+
+---
+id: claude-code-skill-factory-instinct-export-style
+trigger: "When exporting functions or classes"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: yulintang05-byte/claude-code-skill-factory
+---
+
+# Claude Code Skill Factory Instinct Export Style
+
+## Action
+
+Use named exports
+
+## Evidence
+
+- Pattern in exportStyle
+
+---
+id: claude-code-skill-factory-instinct-test-location
+trigger: "When adding or updating tests"
+confidence: 0.9
+domain: testing
+source: repo-analysis
+source_repo: yulintang05-byte/claude-code-skill-factory
+---
+
+# Claude Code Skill Factory Instinct Test Location
+
+## Action
+
+Place test files in a separate folder from source code
+
+## Evidence
+
+- Pattern in architecture.testLocation
+
+---
+id: claude-code-skill-factory-instinct-commit-format
+trigger: "When making a git commit"
+confidence: 0.8
+domain: git
+source: repo-analysis
+source_repo: yulintang05-byte/claude-code-skill-factory
+---
+
+# Claude Code Skill Factory Instinct Commit Format
+
+## Action
+
+Write a freeform commit message without a required prefix
+
+## Evidence
+
+- Pattern in commits.type
+- Example: 'Add SPY Day-Trading Analyst skill (reversal-focused, honest backtesting)'
+
+---
+id: claude-code-skill-factory-instinct-commit-length
+trigger: "When writing a commit message"
+confidence: 0.7
+domain: git
+source: repo-analysis
+source_repo: yulintang05-byte/claude-code-skill-factory
+---
+
+# Claude Code Skill Factory Instinct Commit Length
+
+## Action
+
+Keep the message concise, around 72 characters on average
+
+## Evidence
+
+- Pattern in commits.averageLength
+
