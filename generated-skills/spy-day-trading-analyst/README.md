@@ -156,8 +156,18 @@ spy-day-trading-analyst/
 ├── sample_data_spy_5m.csv   # offline sample dataset
 ├── sample_input.json        # example config
 ├── expected_output.json     # validation reference
+├── test_skill.py            # stdlib unittest regression suite (20 tests)
 └── requirements.txt         # optional accelerators
 ```
+
+## Running the tests
+
+```bash
+python3 -m unittest test_skill -v   # 20 tests, ~5s, no dependencies
+```
+
+They assert the load-bearing guarantees: no-lookahead, resample integrity,
+cost-sensitivity, and Monte-Carlo spread.
 
 ## License / disclaimer
 

@@ -136,6 +136,7 @@ spy-day-trading-analyst/
 ├── sample_data_spy_5m.csv    # offline sample dataset
 ├── sample_input.json         # example config
 ├── expected_output.json      # validation reference
+├── test_skill.py             # stdlib unittest regression suite (20 tests)
 └── requirements.txt          # optional accelerators (yfinance, pandas)
 ```
 
