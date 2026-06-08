@@ -1,0 +1,11 @@
+# The SPY Day-Trading Analyst engine runs on the Python standard library ALONE.
+# Nothing below is required for scan/backtest/levels/news to work.
+#
+# These are OPTIONAL accelerators, only used by the yfinance data path in
+# data_provider.py. When they are absent (or the network blocks Yahoo), the
+# tool automatically falls back to CSV input or a labeled synthetic series.
+#
+#   pip install -r requirements.txt
+
+yfinance>=0.2.0   # live/historical SPY OHLCV download (needs outbound network)
+pandas>=1.3.0     # pulled in by yfinance; not used directly by the engine

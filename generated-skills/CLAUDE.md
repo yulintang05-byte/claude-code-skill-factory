@@ -477,6 +477,43 @@ When generating or modifying skills in this folder, follow these strict rules:
 
 ---
 
+### 10. SPY Day-Trading Analyst (60 KB) 🆕
+
+**Location**: `spy-day-trading-analyst/`
+
+**Files**:
+- `SKILL.md` - Skill definition with honest-framing disclaimers
+- `indicators.py` - Pure-stdlib indicator toolkit (RSI, MACD, ATR, Bollinger, VWAP, stochastic, pivots, swings)
+- `reversals.py` - 8-detector reversal engine with confluence scoring
+- `backtester.py` - Event-driven backtester (no lookahead, real costs) + Monte Carlo
+- `data_provider.py` - yfinance / CSV / synthetic data + timeframe resampling
+- `news_fetcher.py` - Live RSS headlines + offline macro-catalyst calendar
+- `analyze.py` - CLI orchestrator (`demo`/`scan`/`backtest`/`levels`/`news`)
+- `REVERSAL_PLAYBOOK.md` - SPY intraday behavior study, session by session
+- `sample_data_spy_5m.csv`, `sample_input.json`, `expected_output.json`, `requirements.txt`
+
+**Purpose**: Cold, honest SPY intraday analysis specialized in reversals — multi-timeframe confluence scoring and a backtester that reports the REAL edge after slippage and commissions (no fantasy win rates, no trade execution)
+
+**Key Classes**:
+- `ReversalEngine` - Combines independent reversal detectors into a 0-100 confluence score (setup quality, NOT win probability)
+- `Backtester` - Lookahead-free, cost-aware backtest with R-multiple metrics, Sharpe/Sortino, and bootstrap Monte Carlo
+- `Bar` / `data_provider` - Interchangeable data sources with graceful offline fallback
+
+**Pattern**: Data (yfinance/CSV/synthetic) → multi-timeframe reversal scan → honest backtest with costs → Monte-Carlo robustness → pre-trade gate
+
+**Dependencies**: None required — pure Python standard library (yfinance optional). Runs fully offline.
+
+**Use Cases**:
+- Backtest a SPY reversal idea honestly, across every timeframe, after costs
+- Rank current reversal setups by multi-signal confluence
+- Study SPY's session-by-session intraday behavior (reversal playbook)
+- Track the macro catalysts (FOMC/CPI/NFP) that move SPY
+- Pair with the TradingView MCP bridge (see its README) for live-chart context
+
+**Documentation**: See [spy-day-trading-analyst/README.md](spy-day-trading-analyst/README.md) and [spy-day-trading-analyst/HOW_TO_USE.md](spy-day-trading-analyst/HOW_TO_USE.md)
+
+---
+
 ## Installation
 
 ### General Installation Process
@@ -527,6 +564,7 @@ All skills can be customized for specific needs:
 | Microsoft 365 Tenant Manager | 40 KB | Medium |
 | CLAUDE.md Enhancer | 50 KB | Medium |
 | AWS Solution Architect | 53 KB | High |
+| SPY Day-Trading Analyst | 60 KB | High |
 | Hook Factory v2.0 | 92 KB | High |
 | Prompt Factory | 427 KB | Very High |
 
