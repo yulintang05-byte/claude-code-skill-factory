@@ -1,0 +1,33 @@
+{
+  "_comment": "Example configuration for a SPY reversal backtest. These map to analyze.py backtest flags and backtester.BacktestConfig. Copy/edit and pass the matching --flags on the CLI.",
+  "data": {
+    "symbol": "SPY",
+    "csv_path": "sample_data_spy_5m.csv",
+    "yfinance_period": "60d",
+    "yfinance_interval": "5m",
+    "note": "csv_path wins; if omitted the tool tries yfinance then synthetic."
+  },
+  "backtest": {
+    "timeframe": "all",
+    "starting_equity": 30000.0,
+    "risk_per_trade_pct": 0.5,
+    "stop_atr_mult": 1.5,
+    "target_r_multiple": 2.0,
+    "min_confluence": 60.0,
+    "direction": "both",
+    "commission_per_trade": 1.0,
+    "slippage_bps": 1.0,
+    "monte_carlo_runs": 1000
+  },
+  "scan": {
+    "timeframe": "5m",
+    "min_confluence": 60.0,
+    "limit": 10
+  },
+  "interpretation": {
+    "must_be_positive_after_costs": "expectancy_R",
+    "minimum_profit_factor": 1.3,
+    "watch": "max_drawdown_pct and monte_carlo max_drawdown_p95_pct",
+    "reminder": "confluence score is setup QUALITY, not a probability of profit"
+  }
+}

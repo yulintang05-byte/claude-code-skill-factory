@@ -1,0 +1,156 @@
+{
+  "_comment": "Authentic output of: analyze.py backtest --csv sample_data_spy_5m.csv --timeframe all. The sample is SYNTHETIC random-walk data. Note 5m shows a small POSITIVE expectancy here purely by chance while 15m/30m/1h are negative -- this is the single most important backtesting lesson: one backtest on one sample proves nothing, and a good-looking timeframe is often just noise. The demo (different seed) shows 5m negative. Always demand robustness across samples/timeframes and read the Monte-Carlo p05. Regenerate after engine changes.",
+  "dataset": {
+    "file": "sample_data_spy_5m.csv",
+    "base_bars": 1560
+  },
+  "by_timeframe": {
+    "5m": {
+      "num_trades": 29,
+      "win_rate": 0.4828,
+      "wins": 14,
+      "losses": 15,
+      "avg_win_R": 1.494,
+      "avg_loss_R": -0.979,
+      "expectancy_R": 0.215,
+      "expectancy_$": 32.54,
+      "profit_factor": 1.442,
+      "net_pnl_$": 943.58,
+      "total_return_pct": 3.15,
+      "max_drawdown_pct": 2.94,
+      "sharpe": 2.56,
+      "sortino": 3.65,
+      "max_consecutive_losses": 6,
+      "avg_hold_bars": 16.3,
+      "best_R": 1.99,
+      "worst_R": -1.03
+    },
+    "15m": {
+      "num_trades": 17,
+      "win_rate": 0.2941,
+      "wins": 5,
+      "losses": 12,
+      "avg_win_R": 1.269,
+      "avg_loss_R": -0.686,
+      "expectancy_R": -0.111,
+      "expectancy_$": -17.34,
+      "profit_factor": 0.759,
+      "net_pnl_$": -294.72,
+      "total_return_pct": -0.98,
+      "max_drawdown_pct": 2.07,
+      "sharpe": -1.95,
+      "sortino": -1.97,
+      "max_consecutive_losses": 4,
+      "avg_hold_bars": 8.4,
+      "best_R": 1.99,
+      "worst_R": -1.02
+    },
+    "30m": {
+      "num_trades": 4,
+      "win_rate": 0.5,
+      "wins": 2,
+      "losses": 2,
+      "avg_win_R": 1.011,
+      "avg_loss_R": -1.013,
+      "expectancy_R": -0.001,
+      "expectancy_$": -0.39,
+      "profit_factor": 0.995,
+      "net_pnl_$": -1.55,
+      "total_return_pct": -0.01,
+      "max_drawdown_pct": 0.81,
+      "sharpe": 0.0,
+      "sortino": 0.0,
+      "max_consecutive_losses": 1,
+      "avg_hold_bars": 5.0,
+      "best_R": 1.63,
+      "worst_R": -1.01
+    },
+    "1h": {
+      "num_trades": 3,
+      "win_rate": 0.0,
+      "wins": 0,
+      "losses": 3,
+      "avg_win_R": 0.0,
+      "avg_loss_R": -0.95,
+      "expectancy_R": -0.95,
+      "expectancy_$": -136.29,
+      "profit_factor": 0.0,
+      "net_pnl_$": -408.88,
+      "total_return_pct": -1.36,
+      "max_drawdown_pct": 1.36,
+      "sharpe": -6.46,
+      "sortino": -2.37,
+      "max_consecutive_losses": 3,
+      "avg_hold_bars": 3.3,
+      "best_R": -0.82,
+      "worst_R": -1.01
+    }
+  },
+  "total_setups_5m_ge60": 77,
+  "sample_setups_5m": [
+    {
+      "time": "2026-04-28 14:45:00",
+      "direction": "long",
+      "confluence": 60.7,
+      "signals": [
+        "candlestick",
+        "rsi_divergence",
+        "double_extreme"
+      ]
+    },
+    {
+      "time": "2026-04-28 15:25:00",
+      "direction": "short",
+      "confluence": 68.0,
+      "signals": [
+        "candlestick",
+        "double_extreme",
+        "bollinger_reversion",
+        "vwap_stretch"
+      ]
+    },
+    {
+      "time": "2026-04-29 13:00:00",
+      "direction": "long",
+      "confluence": 66.4,
+      "signals": [
+        "candlestick",
+        "double_extreme",
+        "vwap_stretch"
+      ]
+    },
+    {
+      "time": "2026-04-30 15:25:00",
+      "direction": "short",
+      "confluence": 90.6,
+      "signals": [
+        "candlestick",
+        "rsi_turn",
+        "rsi_divergence",
+        "bollinger_reversion",
+        "vwap_stretch",
+        "stochastic_cross"
+      ]
+    },
+    {
+      "time": "2026-04-30 15:45:00",
+      "direction": "short",
+      "confluence": 61.9,
+      "signals": [
+        "candlestick",
+        "rsi_divergence",
+        "vwap_stretch"
+      ]
+    }
+  ],
+  "monte_carlo_best_tf": {
+    "timeframe": "5m",
+    "runs": 1000,
+    "return_p05_pct": -2.64,
+    "return_p50_pct": 2.73,
+    "return_p95_pct": 9.08,
+    "max_drawdown_p50_pct": 2.39,
+    "max_drawdown_p95_pct": 4.81,
+    "worst_drawdown_pct": 8.81
+  }
+}
