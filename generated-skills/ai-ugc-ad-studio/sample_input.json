@@ -1,0 +1,30 @@
+{
+  "business": "PeakForm Coaching",
+  "contact_name": "Jordan",
+  "product": "PeakForm 12-week online fitness program",
+  "niche": "fitness",
+  "city": "Denver",
+  "audience": "busy professionals who want to get in shape",
+  "pain": "no time and no plan that sticks",
+  "result": "lose fat and build a routine that lasts",
+  "benefits": [
+    "workouts under 30 minutes",
+    "follow-along app",
+    "real coach accountability"
+  ],
+  "timeframe": "12 weeks",
+  "category": "fitness program",
+  "tone": "motivating, no-BS, authentic",
+  "offer": "5 short-form video ads",
+  "price": 300,
+  "discount": 15,
+  "code": "PEAK15",
+  "keyword": "PEAK",
+  "your_name": "Sam",
+  "platform": "Reels",
+  "visual_style": "ugc",
+  "videos_per_day": 8,
+  "minutes_per_video": 25,
+  "work_days_per_week": 5,
+  "video_tools": ["higgsfield", "sora"]
+}
