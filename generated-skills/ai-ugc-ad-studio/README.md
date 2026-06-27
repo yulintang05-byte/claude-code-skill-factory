@@ -15,6 +15,7 @@ From one brief, the pipeline produces:
 3. **AI video prompts** — copy-paste-ready prompts for **Higgsfield** (with camera-motion presets), Sora, Veo, Kling, and Runway.
 4. **Outreach kit** — sample-first DM, email, SMS, walk-in pitch, Upwork proposal, follow-ups, and objection handlers.
 5. **Pricing + revenue plan** — productized tiers and the exact math for **$500/week and $10k/month**, plus a 30-day ramp.
+6. **Toolchain cost estimator** — what generation actually costs (cloud pay-per-use vs self-hosted GPU), per-ad cost, margin, and GPU payback.
 
 ---
 
@@ -67,6 +68,7 @@ Or just ask Claude:
 | `video_prompt_builder.py` | Scene → Higgsfield/Sora/Veo/Kling/Runway prompts |
 | `outreach_generator.py` | Sample-first client outreach across channels |
 | `offer_pricing.py` | Pricing tiers + revenue/capacity planning |
+| `toolchain_cost.py` | Cost of running the agency: cloud API vs rented GPU vs owned GPU |
 | `sample_input.json` | Example brief |
 | `expected_output.json` | Example JSON output |
 | `HOW_TO_USE.md` | Detailed usage examples |

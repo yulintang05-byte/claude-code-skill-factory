@@ -17,6 +17,7 @@ This skill is built around one proven play: use AI video tools (Higgsfield and f
 - **Client outreach kit**: Personalized Instagram DM, cold email, SMS, walk-in pitch, and Upwork/Fiverr proposal — all sample-first — plus a 3-touch follow-up sequence and objection handlers.
 - **Pricing & offers**: Productized tiers (Starter Pack, Growth Retainer, Scale Partner) with niche-aware pricing and upsells.
 - **Revenue plan**: Calculates exactly how many packs/retainers you need for $500/week and $10k/month, checks it against your delivery capacity, and lays out a 30-day ramp.
+- **Toolchain cost estimator**: Compares the real cost of running the agency across cloud API (pay-per-use gateways like Muapi.ai/fal.ai), rented GPU (RunPod self-host), and owned GPU — with per-ad cost, monthly cost, profit margin, and GPU payback.
 - **One-command kit**: The pipeline assembles all of the above into a single Markdown or JSON deliverable.
 
 ## Input Requirements
@@ -60,6 +61,9 @@ python pipeline.py --input sample_input.json --format md --out my_kit.md
 
 # Structured JSON for automation
 python pipeline.py --input sample_input.json --format json --out kit.json
+
+# Estimate what the toolchain costs at your volume (cloud vs rented vs owned GPU)
+python toolchain_cost.py --ads-per-month 120 --pack-price 300 --ads-per-pack 5
 ```
 
 ## Scripts
@@ -68,6 +72,7 @@ python pipeline.py --input sample_input.json --format json --out kit.json
 - `video_prompt_builder.py`: Scene → platform-specific AI video prompts (`VideoPromptBuilder`).
 - `outreach_generator.py`: Sample-first cold outreach across channels (`OutreachGenerator`).
 - `offer_pricing.py`: Pricing tiers + revenue/capacity planning (`OfferPricing`).
+- `toolchain_cost.py`: Cost of running the agency across cloud/rented-GPU/owned-GPU paths (`ToolchainCostEstimator`).
 - `pipeline.py`: Orchestrator + CLI that assembles the full kit (`AdStudioPipeline`).
 
 Each module is standard-library only and runs standalone (`python <module>.py`) for a quick self-test.

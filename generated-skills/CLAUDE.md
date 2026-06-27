@@ -477,7 +477,7 @@ When generating or modifying skills in this folder, follow these strict rules:
 
 ---
 
-### 10. AI UGC Ad Studio (84 KB) 🆕
+### 10. AI UGC Ad Studio (93 KB) 🆕
 
 **Location**: `ai-ugc-ad-studio/`
 
@@ -488,6 +488,7 @@ When generating or modifying skills in this folder, follow these strict rules:
 - `video_prompt_builder.py` - Scene → Higgsfield/Sora/Veo/Kling/Runway prompts
 - `outreach_generator.py` - Sample-first client outreach across channels
 - `offer_pricing.py` - Pricing tiers + revenue/capacity planning
+- `toolchain_cost.py` - Agency cost across cloud/rented-GPU/owned-GPU paths
 - `README.md` - Installation guide and overview
 - `HOW_TO_USE.md` - Usage examples
 - `sample_input.json` - Example brief
@@ -565,8 +566,8 @@ All skills can be customized for specific needs:
 | Microsoft 365 Tenant Manager | 40 KB | Medium |
 | CLAUDE.md Enhancer | 50 KB | Medium |
 | AWS Solution Architect | 53 KB | High |
-| AI UGC Ad Studio | 84 KB | High |
 | Hook Factory v2.0 | 92 KB | High |
+| AI UGC Ad Studio | 93 KB | High |
 | Prompt Factory | 427 KB | Very High |
 
 ---
