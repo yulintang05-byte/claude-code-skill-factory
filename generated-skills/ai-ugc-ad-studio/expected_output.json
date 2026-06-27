@@ -1,0 +1,396 @@
+{
+  "meta": {
+    "business": "PeakForm Coaching",
+    "product": "PeakForm 12-week online fitness program",
+    "niche": "fitness",
+    "platform": "Reels",
+    "video_tools": [
+      "higgsfield",
+      "sora"
+    ]
+  },
+  "hooks": [
+    {
+      "angle": "problem_callout",
+      "text": "If you're a busy professionals who want to get in shape still struggling with no time and no plan that sticks, stop scrolling."
+    },
+    {
+      "angle": "bold_claim",
+      "text": "This PeakForm 12-week online fitness program replaced 3 things I used to pay for."
+    },
+    {
+      "angle": "curiosity",
+      "text": "I wasn't going to share this PeakForm 12-week online fitness program... but here we go."
+    },
+    {
+      "angle": "pattern_interrupt",
+      "text": "Stop buying fitness program until you watch this."
+    },
+    {
+      "angle": "social_proof",
+      "text": "I didn't believe the reviews on this PeakForm 12-week online fitness program... until day 3."
+    },
+    {
+      "angle": "pov_relatable",
+      "text": "POV: you finally found a PeakForm 12-week online fitness program that actually lose fat and build a routine that lasts."
+    },
+    {
+      "angle": "question",
+      "text": "What if you could lose fat and build a routine that lasts in 12 weeks?"
+    }
+  ],
+  "ad_scripts": [
+    {
+      "framework": "AIDA",
+      "platform": "Reels",
+      "target_duration_seconds": 30,
+      "hook": "If you're a busy professionals who want to get in shape still struggling with no time and no plan that sticks, stop scrolling.",
+      "scenes": [
+        {
+          "beat": "Attention",
+          "seconds": 8,
+          "voiceover": "If you're a busy professionals who want to get in shape still struggling with no time and no plan that sticks, stop scrolling.",
+          "on_screen_text": "If you're a busy professionals who want to get in shape still struggling with no time and no plan that sticks, stop scrolling.",
+          "b_roll": "Close-up talking-to-camera, fast pattern-interrupt cut"
+        },
+        {
+          "beat": "Interest",
+          "seconds": 8,
+          "voiceover": "Look, every busy professionals who want to get in shape knows the pain of no time and no plan that sticks. I was there too.",
+          "on_screen_text": "Look, every busy professionals who want...",
+          "b_roll": "Relatable B-roll of the frustration / messy 'before'"
+        },
+        {
+          "beat": "Desire",
+          "seconds": 8,
+          "voiceover": "Then I found PeakForm 12-week online fitness program. It workouts under 30 minutes, follow-along app, real coach accountability. No fluff - it just works.",
+          "on_screen_text": "this changed everything",
+          "b_roll": "Hero product shot of PeakForm 12-week online fitness program, satisfying reveal"
+        },
+        {
+          "beat": "Action",
+          "seconds": 8,
+          "voiceover": "Tap the link to get yours before it sells out.",
+          "on_screen_text": "5 short-form video ads 👇",
+          "b_roll": "Product + offer on screen, tap-the-link gesture"
+        }
+      ],
+      "full_voiceover": "If you're a busy professionals who want to get in shape still struggling with no time and no plan that sticks, stop scrolling. Look, every busy professionals who want to get in shape knows the pain of no time and no plan that sticks. I was there too. Then I found PeakForm 12-week online fitness program. It workouts under 30 minutes, follow-along app, real coach accountability. No fluff - it just works. Tap the link to get yours before it sells out.",
+      "caption": "PeakForm 12-week online fitness program for busy professionals who want to get in shape who are done with no time and no plan that sticks. 5 short-form video ads 🔥",
+      "hashtags": [
+        "#tiktokmademebuyit",
+        "#ugc",
+        "#fyp",
+        "#smallbusiness",
+        "#fitness"
+      ],
+      "cta_options": [
+        "Tap the link to get yours before it sells out.",
+        "Comment \"PEAK\" and I'll DM you the link.",
+        "Link in bio - 5 short-form video ads.",
+        "Use code PEAK15 for 15% off today only.",
+        "Click the link and see why everyone's switching."
+      ],
+      "variant_id": "V1",
+      "angle": "problem_callout"
+    },
+    {
+      "framework": "PAS",
+      "platform": "Reels",
+      "target_duration_seconds": 30,
+      "hook": "This PeakForm 12-week online fitness program replaced 3 things I used to pay for.",
+      "scenes": [
+        {
+          "beat": "Problem",
+          "seconds": 8,
+          "voiceover": "Here's the problem: no time and no plan that sticks - and most fitness program options make it worse.",
+          "on_screen_text": "Here's the problem: no time and...",
+          "b_roll": "The problem shown literally (the 'before' state)"
+        },
+        {
+          "beat": "Agitate",
+          "seconds": 8,
+          "voiceover": "Keep ignoring it and you waste money, time, and patience every single week.",
+          "on_screen_text": "Keep ignoring it and you waste...",
+          "b_roll": "Quick montage of failed alternatives"
+        },
+        {
+          "beat": "Solution",
+          "seconds": 8,
+          "voiceover": "Then I found PeakForm 12-week online fitness program. It workouts under 30 minutes, follow-along app, real coach accountability. No fluff - it just works.",
+          "on_screen_text": "this changed everything",
+          "b_roll": "Hero product shot of PeakForm 12-week online fitness program, satisfying reveal"
+        },
+        {
+          "beat": "Action",
+          "seconds": 8,
+          "voiceover": "Tap the link to get yours before it sells out.",
+          "on_screen_text": "5 short-form video ads 👇",
+          "b_roll": "Product + offer on screen, tap-the-link gesture"
+        }
+      ],
+      "full_voiceover": "Here's the problem: no time and no plan that sticks - and most fitness program options make it worse. Keep ignoring it and you waste money, time, and patience every single week. Then I found PeakForm 12-week online fitness program. It workouts under 30 minutes, follow-along app, real coach accountability. No fluff - it just works. Tap the link to get yours before it sells out.",
+      "caption": "PeakForm 12-week online fitness program for busy professionals who want to get in shape who are done with no time and no plan that sticks. 5 short-form video ads 🔥",
+      "hashtags": [
+        "#tiktokmademebuyit",
+        "#ugc",
+        "#fyp",
+        "#smallbusiness",
+        "#fitness"
+      ],
+      "cta_options": [
+        "Tap the link to get yours before it sells out.",
+        "Comment \"PEAK\" and I'll DM you the link.",
+        "Link in bio - 5 short-form video ads.",
+        "Use code PEAK15 for 15% off today only.",
+        "Click the link and see why everyone's switching."
+      ],
+      "variant_id": "V2",
+      "angle": "bold_claim"
+    }
+  ],
+  "video_prompts": [
+    {
+      "beat": "Attention",
+      "shot_spec": {
+        "beat": "Attention",
+        "subject": "a relatable busy professionals who want to get in shape as the on-camera creator",
+        "action": "Close-up talking-to-camera, fast pattern-interrupt cut",
+        "setting": "a bright, modern home setting",
+        "product": "PeakForm 12-week online fitness program",
+        "shot_type": "medium close-up",
+        "camera_move": "Crash Zoom In",
+        "motion_key": "hook",
+        "lighting": "soft natural window light",
+        "style": "authentic iPhone-shot UGC look, natural handheld, realistic lighting",
+        "color_grade": "warm, natural skin tones",
+        "aspect_ratio": "9:16",
+        "duration_s": 8,
+        "negative": "blurry, distorted hands, watermark, text artifacts, low quality, deformed product"
+      },
+      "prompts": {
+        "higgsfield": "[HIGGSFIELD - image-to-video / text-to-video]\nScene: a relatable busy professionals who want to get in shape as the on-camera creator in a bright, modern home setting. Close-up talking-to-camera, fast pattern-interrupt cut Featuring PeakForm 12-week online fitness program.\nCamera motion preset: Crash Zoom In (high motion strength).\nShot: medium close-up. Lighting: soft natural window light. Style: authentic iPhone-shot UGC look, natural handheld, realistic lighting, warm, natural skin tones.\nAspect ratio: 9:16. Duration: 8s.\nTip: upload a hero product/creator image first, then apply the 'Crash Zoom In' preset for the cinematic move.\nNegative: blurry, distorted hands, watermark, text artifacts, low quality, deformed product",
+        "sora": "[SORA]\nA 8-second 9:16 vertical clip. a relatable busy professionals who want to get in shape as the on-camera creator in a bright, modern home setting. Close-up talking-to-camera, fast pattern-interrupt cut The PeakForm 12-week online fitness program is clearly featured. Camera performs a crash zoom in move. soft natural window light, authentic iPhone-shot UGC look, natural handheld, realistic lighting, warm, natural skin tones. Realistic motion, natural performance, no on-screen text."
+      }
+    },
+    {
+      "beat": "Interest",
+      "shot_spec": {
+        "beat": "Interest",
+        "subject": "a relatable busy professionals who want to get in shape as the on-camera creator",
+        "action": "Relatable B-roll of the frustration / messy 'before'",
+        "setting": "a bright, modern home setting",
+        "product": "PeakForm 12-week online fitness program",
+        "shot_type": "dynamic product shot",
+        "camera_move": "Robo Arm",
+        "motion_key": "demo",
+        "lighting": "soft natural window light",
+        "style": "authentic iPhone-shot UGC look, natural handheld, realistic lighting",
+        "color_grade": "warm, natural skin tones",
+        "aspect_ratio": "9:16",
+        "duration_s": 8,
+        "negative": "blurry, distorted hands, watermark, text artifacts, low quality, deformed product"
+      },
+      "prompts": {
+        "higgsfield": "[HIGGSFIELD - image-to-video / text-to-video]\nScene: a relatable busy professionals who want to get in shape as the on-camera creator in a bright, modern home setting. Relatable B-roll of the frustration / messy 'before' Featuring PeakForm 12-week online fitness program.\nCamera motion preset: Robo Arm (high motion strength).\nShot: dynamic product shot. Lighting: soft natural window light. Style: authentic iPhone-shot UGC look, natural handheld, realistic lighting, warm, natural skin tones.\nAspect ratio: 9:16. Duration: 8s.\nTip: upload a hero product/creator image first, then apply the 'Robo Arm' preset for the cinematic move.\nNegative: blurry, distorted hands, watermark, text artifacts, low quality, deformed product",
+        "sora": "[SORA]\nA 8-second 9:16 vertical clip. a relatable busy professionals who want to get in shape as the on-camera creator in a bright, modern home setting. Relatable B-roll of the frustration / messy 'before' The PeakForm 12-week online fitness program is clearly featured. Camera performs a robo arm move. soft natural window light, authentic iPhone-shot UGC look, natural handheld, realistic lighting, warm, natural skin tones. Realistic motion, natural performance, no on-screen text."
+      }
+    },
+    {
+      "beat": "Desire",
+      "shot_spec": {
+        "beat": "Desire",
+        "subject": "a relatable busy professionals who want to get in shape as the on-camera creator",
+        "action": "Hero product shot of PeakForm 12-week online fitness program, satisfying reveal",
+        "setting": "a bright, modern home setting",
+        "product": "PeakForm 12-week online fitness program",
+        "shot_type": "dynamic product shot",
+        "camera_move": "360 Orbit",
+        "motion_key": "product",
+        "lighting": "soft natural window light",
+        "style": "authentic iPhone-shot UGC look, natural handheld, realistic lighting",
+        "color_grade": "warm, natural skin tones",
+        "aspect_ratio": "9:16",
+        "duration_s": 8,
+        "negative": "blurry, distorted hands, watermark, text artifacts, low quality, deformed product"
+      },
+      "prompts": {
+        "higgsfield": "[HIGGSFIELD - image-to-video / text-to-video]\nScene: a relatable busy professionals who want to get in shape as the on-camera creator in a bright, modern home setting. Hero product shot of PeakForm 12-week online fitness program, satisfying reveal Featuring PeakForm 12-week online fitness program.\nCamera motion preset: 360 Orbit (high motion strength).\nShot: dynamic product shot. Lighting: soft natural window light. Style: authentic iPhone-shot UGC look, natural handheld, realistic lighting, warm, natural skin tones.\nAspect ratio: 9:16. Duration: 8s.\nTip: upload a hero product/creator image first, then apply the '360 Orbit' preset for the cinematic move.\nNegative: blurry, distorted hands, watermark, text artifacts, low quality, deformed product",
+        "sora": "[SORA]\nA 8-second 9:16 vertical clip. a relatable busy professionals who want to get in shape as the on-camera creator in a bright, modern home setting. Hero product shot of PeakForm 12-week online fitness program, satisfying reveal The PeakForm 12-week online fitness program is clearly featured. Camera performs a 360 orbit move. soft natural window light, authentic iPhone-shot UGC look, natural handheld, realistic lighting, warm, natural skin tones. Realistic motion, natural performance, no on-screen text."
+      }
+    },
+    {
+      "beat": "Action",
+      "shot_spec": {
+        "beat": "Action",
+        "subject": "a relatable busy professionals who want to get in shape as the on-camera creator",
+        "action": "Product + offer on screen, tap-the-link gesture",
+        "setting": "a bright, modern home setting",
+        "product": "PeakForm 12-week online fitness program",
+        "shot_type": "dynamic product shot",
+        "camera_move": "Super Dolly In",
+        "motion_key": "reveal",
+        "lighting": "soft natural window light",
+        "style": "authentic iPhone-shot UGC look, natural handheld, realistic lighting",
+        "color_grade": "warm, natural skin tones",
+        "aspect_ratio": "9:16",
+        "duration_s": 8,
+        "negative": "blurry, distorted hands, watermark, text artifacts, low quality, deformed product"
+      },
+      "prompts": {
+        "higgsfield": "[HIGGSFIELD - image-to-video / text-to-video]\nScene: a relatable busy professionals who want to get in shape as the on-camera creator in a bright, modern home setting. Product + offer on screen, tap-the-link gesture Featuring PeakForm 12-week online fitness program.\nCamera motion preset: Super Dolly In (high motion strength).\nShot: dynamic product shot. Lighting: soft natural window light. Style: authentic iPhone-shot UGC look, natural handheld, realistic lighting, warm, natural skin tones.\nAspect ratio: 9:16. Duration: 8s.\nTip: upload a hero product/creator image first, then apply the 'Super Dolly In' preset for the cinematic move.\nNegative: blurry, distorted hands, watermark, text artifacts, low quality, deformed product",
+        "sora": "[SORA]\nA 8-second 9:16 vertical clip. a relatable busy professionals who want to get in shape as the on-camera creator in a bright, modern home setting. Product + offer on screen, tap-the-link gesture The PeakForm 12-week online fitness program is clearly featured. Camera performs a super dolly in move. soft natural window light, authentic iPhone-shot UGC look, natural handheld, realistic lighting, warm, natural skin tones. Realistic motion, natural performance, no on-screen text."
+      }
+    }
+  ],
+  "outreach": {
+    "instagram_dm": "Hey Jordan! 👋 I came across PeakForm Coaching and your fitness stuff is great. I actually made you a quick sample video ad (free, no strings): [your sample video link]\n\nI make short-form video ads that get lose fat and build a routine that lasts. If you like the sample I can do 5 short-form video ads for $300. Want me to send a couple more concepts?",
+    "cold_email": {
+      "subject": "made a free video ad for PeakForm Coaching 🎬",
+      "body": "Hi Jordan,\n\nI'll keep this short. I make scroll-stopping short-form video ads for fitness businesses in Denver, and I put together a FREE sample for PeakForm Coaching:\n\n  [your sample video link]\n\nNo catch - I'd rather show you than pitch you. The goal of these is simple: lose fat and build a routine that lasts without you having to film anything.\n\nIf you like it, I can deliver 5 short-form video ads for $300 this week. Worth a quick look?\n\nBest,\nSam\n[your portfolio link]"
+    },
+    "sms": "Hi Jordan, it's Sam. I made PeakForm Coaching a free sample video ad - [your sample video link]. Like it? I can do 5 short-form video ads for $300. Want more concepts?",
+    "walk_in_pitch": "\"Hi, are you the owner? I'm Sam - I make short video ads for fitness businesses here in Denver. I actually already made one for PeakForm Coaching to show you - mind if I show you 15 seconds on my phone?\"\n[show sample] \"If you like it, I can make you 5 short-form video ads for $300. Want me to put a pack together?\"",
+    "upwork_proposal": "Hi Jordan,\n\nYou need 5 short-form video ads that actually convert - that's exactly what I do. I produce UGC-style AI video ads fast (24-48h turnaround) so you can test creatives without expensive shoots.\n\nHere's a sample so you can judge the quality up front: [your sample video link]\nPortfolio: [your portfolio link]\n\nI can start today. Happy to do a first batch so you can see the results before scaling. When can we hop on a quick call? [your booking link]\n\n- Sam",
+    "follow_up_sequence": [
+      {
+        "when": "Day 2 (no reply)",
+        "message": "Hey Jordan, did the sample video come through? Happy to tweak it to match PeakForm Coaching's vibe - just say the word."
+      },
+      {
+        "when": "Day 4 (no reply)",
+        "message": "No worries if now's not the time! Quick idea: I can send 2 more ad concepts for PeakForm Coaching so you've got options to test. Want them?"
+      },
+      {
+        "when": "Day 7 (last touch)",
+        "message": "Last one from me 🙂 I'll hold a spot this week to make PeakForm Coaching 5 short-form video ads for $300. Want me to grab it for you before it's gone?"
+      }
+    ],
+    "objection_handlers": {
+      "too expensive": "Totally fair - that's why I keep the first pack small. One ad that lands pays for the whole batch. Want to start with 3 for less?",
+      "we do it in-house": "Love that! I just speed things up - I can hand you ready-to-post videos so your team skips the editing. Want a free one to test?",
+      "not sure it works": "That's the point of the free sample - post it, watch the views, then decide. Zero risk to you.",
+      "no time": "You don't need any - you don't film or edit anything. I deliver finished videos ready to upload. Want me to just handle it?",
+      "send info": "Sent! Short version: 5 short-form video ads for $300, 48h turnaround, free sample first: [your sample video link]"
+    },
+    "outreach_targets_per_day": 25,
+    "tip": "Personalize the first line per business and ALWAYS attach a real sample. Sample-first outreach converts far better than a pitch."
+  },
+  "pricing_and_revenue": {
+    "pricing_tiers": [
+      {
+        "name": "Starter Pack",
+        "price": 300,
+        "billing": "one-time",
+        "deliverables": [
+          "5 short-form video ads (15-30s)",
+          "2 hook variations each",
+          "captions + hashtags",
+          "48-hour turnaround"
+        ],
+        "best_for": "first-time clients / fast cash"
+      },
+      {
+        "name": "Growth Retainer",
+        "price": 1260,
+        "billing": "per month",
+        "deliverables": [
+          "15 video ads / month",
+          "weekly drops (test & iterate)",
+          "trend-based concepts",
+          "priority turnaround"
+        ],
+        "best_for": "recurring revenue (the $10k engine)"
+      },
+      {
+        "name": "Scale Partner",
+        "price": 2400,
+        "billing": "per month",
+        "deliverables": [
+          "30+ video ads / month",
+          "full content calendar + posting",
+          "monthly performance report",
+          "dedicated creative"
+        ],
+        "best_for": "established brands / agencies"
+      }
+    ],
+    "upsells": [
+      {
+        "name": "Rush 24h delivery",
+        "price": 90
+      },
+      {
+        "name": "Extra hook variations (x5)",
+        "price": 75
+      },
+      {
+        "name": "Posting + scheduling",
+        "price": 150,
+        "billing": "per month"
+      },
+      {
+        "name": "Monthly performance report",
+        "price": 99,
+        "billing": "per month"
+      }
+    ],
+    "revenue_plan": {
+      "assumptions": {
+        "base_pack_price": 300,
+        "starter_pack_price": 300,
+        "growth_retainer_price": 1260,
+        "videos_per_starter_pack": 5,
+        "your_weekly_video_capacity": 40.0,
+        "minutes_per_video": 25.0
+      },
+      "weekly_500_path": {
+        "starter_packs_to_close_per_week": 1.7,
+        "videos_to_produce_per_week": 8.3,
+        "capacity_sufficient": true,
+        "note": "Close ~2 starter pack(s)/week at $300 to clear $500/week."
+      },
+      "monthly_10k_paths": [
+        {
+          "model": "Recurring (recommended)",
+          "what": "8 Growth Retainers @ $1260/mo",
+          "why": "Recurring revenue compounds; less re-selling each month."
+        },
+        {
+          "model": "One-time volume",
+          "what": "33 starter packs @ $300",
+          "why": "Faster to start, but you resell from zero every month."
+        },
+        {
+          "model": "Hybrid (realistic)",
+          "what": "4 retainers + ~11 starter packs",
+          "why": "Stable base from retainers, topped up with one-off packs."
+        }
+      ],
+      "capacity_warning": null
+    },
+    "thirty_day_plan": [
+      {
+        "phase": "Days 1-2",
+        "focus": "Make 3-5 sample ads + set up a simple portfolio/link."
+      },
+      {
+        "phase": "Days 3-7",
+        "focus": "Send 25 sample-first outreaches/day. Close first 2-3 starter packs (~$500-900)."
+      },
+      {
+        "phase": "Days 8-14",
+        "focus": "Deliver fast, collect testimonials, pitch Growth Retainer to happy clients."
+      },
+      {
+        "phase": "Days 15-21",
+        "focus": "Convert 2-3 clients to retainers. Keep 25 outreaches/day."
+      },
+      {
+        "phase": "Days 22-30",
+        "focus": "Stack retainers toward $10k MRR; raise prices as your portfolio grows."
+      }
+    ],
+    "disclaimer": "Figures are planning aids based on your inputs, not income guarantees. Actual results depend on outreach volume, niche, offer quality, and delivery."
+  }
+}

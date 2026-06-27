@@ -477,6 +477,45 @@ When generating or modifying skills in this folder, follow these strict rules:
 
 ---
 
+### 10. AI UGC Ad Studio (93 KB) 🆕
+
+**Location**: `ai-ugc-ad-studio/`
+
+**Files**:
+- `SKILL.md` - Skill definition and documentation
+- `pipeline.py` - Orchestrator + CLI that assembles the full campaign kit
+- `ad_script_generator.py` - Hooks + framework-based ad scripts
+- `video_prompt_builder.py` - Scene → Higgsfield/Sora/Veo/Kling/Runway prompts
+- `outreach_generator.py` - Sample-first client outreach across channels
+- `offer_pricing.py` - Pricing tiers + revenue/capacity planning
+- `toolchain_cost.py` - Agency cost across cloud/rented-GPU/owned-GPU paths
+- `README.md` - Installation guide and overview
+- `HOW_TO_USE.md` - Usage examples
+- `sample_input.json` - Example brief
+- `expected_output.json` - Example JSON output
+
+**Purpose**: Generate complete AI video ad campaigns - scroll-stopping scripts, copy-paste prompts for major AI video tools, client outreach, pricing tiers, and a revenue plan - to start and run a UGC ad-creative side business
+
+**Key Classes**:
+- `AdScriptGenerator` - Generates A/B-ready ad scripts (AIDA, PAS, Hook-Retain-Reward, Before-After-Bridge) + a 7-angle hook library
+- `VideoPromptBuilder` - Converts scenes into platform-specific prompts (Higgsfield camera presets, Sora, Veo, Kling, Runway)
+- `OutreachGenerator` - Sample-first DM/email/SMS/walk-in/Upwork outreach + follow-ups + objection handling
+- `OfferPricing` - Productized tiers + revenue math for $500/week and $10k/month with capacity checks
+- `AdStudioPipeline` - One brief → full Markdown or JSON campaign kit
+
+**Pattern**: Brief → hooks + scripts → AI video prompts → client outreach → pricing + revenue plan → 30-day ramp
+
+**Use Cases**:
+- Spin up a UGC / AI-video ad-creative side business
+- Generate scroll-stopping short-form ad scripts and hooks
+- Produce copy-paste prompts for Higgsfield and other AI video tools
+- Write sample-first cold outreach to land paid clients
+- Model pricing and a concrete path to revenue goals
+
+**Documentation**: See [ai-ugc-ad-studio/README.md](ai-ugc-ad-studio/README.md) and [ai-ugc-ad-studio/HOW_TO_USE.md](ai-ugc-ad-studio/HOW_TO_USE.md)
+
+---
+
 ## Installation
 
 ### General Installation Process
@@ -528,6 +567,7 @@ All skills can be customized for specific needs:
 | CLAUDE.md Enhancer | 50 KB | Medium |
 | AWS Solution Architect | 53 KB | High |
 | Hook Factory v2.0 | 92 KB | High |
+| AI UGC Ad Studio | 93 KB | High |
 | Prompt Factory | 427 KB | Very High |
 
 ---
